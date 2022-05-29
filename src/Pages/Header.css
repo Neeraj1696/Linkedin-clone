@@ -1,11 +1,19 @@
 .header{
-    position:sticky;
     display:flex;
+    justify-content:space-evenly;
+    border-bottom:0.1px solid lightgray;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:100%;
+    position:sticky;
+    top:0;
+    z-index: 999;
 }
 
 .header_left > img {
 object-fit:content;
 height:40px;
+margin-right: 10px;
 
 }
 .header_left{
@@ -15,4 +23,17 @@ height:40px;
 align-items:center;
 padding: 10px;
 display: flex;
+border-radius: 5px;
+height: 22px;
+color: gray;
+background-color:rgb(208, 204, 204);
+}
+.header_search > input {
+    outline:none;
+    border: none;
+    background:none;
+}
+.header_right{
+    display:flex;
+    
 }
