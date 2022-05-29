@@ -1,0 +1,18 @@
+.header{
+    position:sticky;
+    display:flex;
+}
+
+.header_left > img {
+object-fit:content;
+height:40px;
+
+}
+.header_left{
+    display:flex;
+}
+.header_search {
+align-items:center;
+padding: 10px;
+display: flex;
+}
