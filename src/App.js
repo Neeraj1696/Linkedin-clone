@@ -2,6 +2,7 @@ import React from "react";
 
 import "./App.css";
 import Header from "./Pages/Header";
+import Sidebar from "./Pages/Sidebar";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       {/* body */}
       {/* side bar left */}
+      <Sidebar />
       {/* side bar right */}
     </div>
   );
