@@ -1,0 +1,8 @@
+.input_Option{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: grey;
+    padding: 10px;
+    cursor: pointer;
+}

@@ -32,7 +32,7 @@ function Header() {
         <HeaderOption Icon={NotificationsIcon} title="Notifications" />
         <HeaderOption
           avatar="https://w0.peakpx.com/wallpaper/212/254/HD-wallpaper-alone-boy-no-face-viral-pic-amit-raftaar-sexy-boy.jpg"
-          title="ITS ME"
+          title="Me"
         />
       </div>
       {/* icons */}
